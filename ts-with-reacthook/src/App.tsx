@@ -13,7 +13,7 @@ interface User {
 }
 type Fibo = (item: number) => number;
 
-let fibo: Fibo = (item) => {
+const fibo: Fibo = (item) => {
   if (item < 1) {
     return 1;
   }
