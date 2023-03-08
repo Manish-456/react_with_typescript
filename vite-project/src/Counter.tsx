@@ -8,6 +8,7 @@ type Counterprops = {
 const Counter = ({ children, setCount }: Counterprops) => {
   return (
     <>
+  
     {children}
       <button onClick={() => setCount((prev) => prev + 1)}>Increment</button>
       <button onClick={() => setCount((prev) => prev - 1)}>Decrement</button>
